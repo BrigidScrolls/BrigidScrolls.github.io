@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://brigidscrolls.github.io/</loc>
+    <lastmod>2025-06-12</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://brigidscrolls.github.io/book-shop/</loc>
+    <lastmod>2025-06-12</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://brigidscrolls.github.io/game.html</loc>
+    <lastmod>2025-06-12</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://brigidscrolls.github.io/contact.html</loc>
+    <lastmod>2025-06-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brigidscrolls.github.io/terms-and-conditions/</loc>
+    <lastmod>2025-06-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://brigidscrolls.github.io/privacy-policy/</loc>
+    <lastmod>2025-06-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+</urlset>

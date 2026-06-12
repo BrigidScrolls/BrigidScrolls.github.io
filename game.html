@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Biohazard Ward – Psychological Horror Visual Novel | Brigid Scrolls</title>
+    <meta name="title" content="Biohazard Ward – Medical Horror Visual Novel Game">
+    <meta name="description" content="Biohazard Ward is a psychological horror visual novel set in an isolated hospital ward. Play as a junior doctor, diagnose patients, and uncover a dark conspiracy across 14 days. Coming to PC.">
+    <meta name="keywords" content="Biohazard Ward, horror visual novel, psychological horror game, medical horror game, indie horror game, diagnosis game, visual novel, hospital horror">
+    <meta name="author" content="Brigid Scrolls">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://brigidscrolls.github.io/game.html">
+    <meta property="og:title" content="Biohazard Ward – Psychological Horror Visual Novel">
+    <meta property="og:description" content="A medical horror visual novel where your diagnoses determine who survives. Coming to PC.">
+    <meta property="og:image" content="https://brigidscrolls.github.io/images/BiohazardWard%20main%20screen.png">
+    <meta property="og:site_name" content="Brigid Scrolls">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Biohazard Ward – Horror Visual Novel">
+    <meta name="twitter:description" content="14 days. 4 endings. Your mind is breaking. Coming to PC.">
+    <meta name="twitter:image" content="https://brigidscrolls.github.io/images/BiohazardWard%20main%20screen.png">
+    
+    <!-- JSON-LD Structured Data for Video Game -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoGame",
+      "name": "Biohazard Ward",
+      "description": "A psychological horror visual novel where you play as a junior doctor in an isolated hospital ward during a global pandemic. Diagnose patients, manage scarce resources, and uncover a dark conspiracy across 14 days.",
+      "genre": ["Horror", "Visual Novel", "Psychological Thriller", "Medical Simulation"],
+      "applicationCategory": "Game",
+      "operatingSystem": "Windows 7, 8, 10, 11 (64-bit)",
+      "processorRequirements": "1.5 GHz",
+      "memoryRequirements": "2 GB RAM",
+      "storageRequirements": "1 GB",
+      "gameMode": ["SinglePlayer"],
+      "url": "https://brigidscrolls.github.io/game.html",
+      "image": "https://brigidscrolls.github.io/images/BiohazardWard%20main%20screen.png",
+      "author": {
+        "@type": "Organization",
+        "name": "Brigid Scrolls"
+      }
+    }
+    </script>
+    
+    <!-- JSON-LD for FAQ Section -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Biohazard Ward?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Biohazard Ward is a psychological horror visual novel where you play as a junior doctor in an isolated hospital ward during a global pandemic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long is Biohazard Ward?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The main story takes 10-15 hours to complete with 4 different endings based on your choices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the system requirements for Biohazard Ward?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimum: Windows 7/8/10 (64-bit), 1.5 GHz processor, 2 GB RAM, 1 GB storage. Recommended: Windows 10/11 (64-bit), 2.0 GHz processor, 4 GB RAM."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When will Biohazard Ward be released?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Biohazard Ward is coming to PC. Follow our social media channels for release date announcements."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://brigidscrolls.github.io/game.html">
+    
+    <style>
+        .game-hero {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            border-radius: 24px;
+            margin: 40px 0;
+        }
+        
+        .game-title {
+            font-size: 3rem;
+            text-shadow: 0 0 20px rgba(220, 20, 60, 0.5);
+            margin-bottom: 16px;
+        }
+        
+        .game-subtitle {
+            font-size: 1.2rem;
+            color: #ff6b6b;
+            opacity: 0.9;
+        }
+        
+        .game-description {
+            background: #f9fafb;
+            padding: 40px;
+            border-radius: 24px;
+            margin: 40px 0;
+            line-height: 1.8;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+            margin: 40px 0;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 24px;
+            border-radius: 16px;
+            border-left: 4px solid #dc2626;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        .feature-card h3 {
+            color: #dc2626;
+            margin-bottom: 12px;
+        }
+        
+        .dlc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .dlc-card {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            color: white;
+            padding: 28px;
+            border-radius: 20px;
+            transition: transform 0.2s;
+        }
+        
+        .dlc-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .dlc-card h3 {
+            color: #fbbf24;
+            margin-bottom: 12px;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            background: #dc2626;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+        
+        .store-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+        
+        .store-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 32px;
+            border-radius: 40px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
+        
+        .store-btn.itch {
+            background: #fa5c5c;
+            color: white;
+        }
+        
+        .store-btn.steam {
+            background: #1b2838;
+            color: white;
+        }
+        
+        .store-btn:hover {
+            transform: translateY(-3px);
+        }
+        
+        .requirements {
+            background: #f1f5f9;
+            padding: 30px;
+            border-radius: 16px;
+            margin: 40px 0;
+        }
+        
+        .req-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .req-column h4 {
+            color: #0a2b4e;
+            margin-bottom: 12px;
+        }
+        
+        .req-column ul {
+            margin-left: 20px;
+            color: #334155;
+        }
+        
+        .req-column li {
+            margin: 8px 0;
+        }
+        
+        .trailer-placeholder {
+            background: #000;
+            border-radius: 16px;
+            padding: 80px 20px;
+            text-align: center;
+            color: white;
+            margin: 40px 0;
+            cursor: pointer;
+        }
+        
+        .screenshot-img {
+            width: 100%;
+            border-radius: 16px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .faq-question {
+            margin-top: 30px;
+            margin-bottom: 10px;
+            color: #0a2b4e;
+        }
+        
+        @media (max-width: 768px) {
+            .game-title { font-size: 2rem; }
+            .store-btn { padding: 10px 20px; font-size: 0.9rem; }
+            .req-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">📚 Brigid Scrolls</div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="book-shop/">📖 Book Shop</a>
+                <a href="game.html">🎮 Biohazard Ward</a>
+                <a href="terms-and-conditions/">Terms</a>
+                <a href="privacy-policy/">Privacy</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Game Hero -->
+        <div class="game-hero">
+            <div class="game-title">🏥 BIOHAZARD WARD</div>
+            <div class="game-subtitle">A Medical Horror Visual Novel</div>
+            <p style="margin-top: 20px; max-width: 600px; margin-left: auto; margin-right: auto;">The hospital keeps secrets. The patients keep disappearing. You keep forgetting.</p>
+        </div>
+
+        <!-- Store Links -->
+        <div class="store-buttons">
+            <a href="https://brigidscrolls.itch.io/" class="store-btn itch" target="_blank" rel="noopener noreferrer">🎮 Wishlist on Itch.io</a>
+            <a href="#" class="store-btn steam" id="steamPlaceholder">🔥 Coming Soon to Steam</a>
+        </div>
+
+        <!-- Game Description with Q&A Format for SEO -->
+        <div class="game-description">
+            <h2 style="color: #0a2b4e; margin-bottom: 20px;">🎭 Welcome to Ward 7</h2>
+            
+            <h3>What is Biohazard Ward?</h3>
+            <p><strong>Biohazard Ward</strong> is a psychological horror visual novel set in an isolated hospital ward during a global pandemic. You play as a newly assigned doctor who discovers that patients aren't just dying — they're being erased.</p>
+            
+            <h3>How long is the game?</h3>
+            <p>The main story takes <strong>10-15 hours</strong> to complete, with 4 different endings based on your choices throughout the 14-day narrative.</p>
+            
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>📋 A 14-Day Nightmare</h3>
+                    <p>Each day brings new patients, new clues, and new reasons to be afraid. The truth unfolds slowly — but some doors can't be closed once opened.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔬 Diagnose or Die</h3>
+                    <p>Use the diagnostic board to identify real medical conditions from a database of 50+ conditions. Choose correctly or face the consequences.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🧠 Your Mind Is Breaking</h3>
+                    <p>As you witness more trauma, your perception fractures. Text becomes scrambled. Reality becomes unreliable. Trust nothing.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚡ The Lights Go Out</h3>
+                    <p>Random power cuts plunge the ward into darkness. Patients panic. Equipment fails. You're alone with whatever is in the dark.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📦 Scavenge to Survive</h3>
+                    <p>Batteries, oxygen, sedatives, food — every shift you must decide what to conserve and what to sacrifice.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🎭 Your Choice Changes Everything</h3>
+                    <p>Multiple endings await. The story branches based on your diagnoses, your alliances, and the final decision you make when the truth is revealed.</p>
+                </div>
+            </div>
+
+            <h3>What is the story of Biohazard Ward?</h3>
+            <p>You are a junior doctor assigned to Ward 7 — a forgotten wing of an underfunded hospital. Your colleagues are tired. The patients are terrified. And no one will tell you why the lower level is off-limits.</p>
+            <p>As days pass, patients begin to disappear from the records. Not discharged. Not transferred. Just... gone. Your mentor warns you to stop asking questions. The night shift nurse slips you a key. And a patient in Room 447 keeps whispering the same phrase:</p>
+            <p style="font-style: italic; background: #fef2f2; padding: 16px; border-radius: 12px; margin: 20px 0;">"You're one of us now."</p>
+            
+            <h3>Who are the characters in Biohazard Ward?</h3>
+            <ul style="margin-left: 30px;">
+                <li><strong>Dr. Samir Roy</strong> – Your mentor. He's seen too much. He knows more than he's saying.</li>
+                <li><strong>Nurse Elena Vasquez</strong> – She has keys to every door. She's been waiting for someone to trust.</li>
+                <li><strong>Dr. Marcus Webb</strong> – Friendly on the surface. But why does he avoid the lower level?</li>
+                <li><strong>Patient 447</strong> – A woman with no records. No family. No past. But she knows your name.</li>
+            </ul>
+        </div>
+
+        <!-- Screenshots -->
+        <h2 class="text-center" style="margin: 40px 0 20px;">📸 Biohazard Ward Screenshots</h2>
+        
+        <img src="images/BiohazardWard main screen.png" class="screenshot-img" alt="Biohazard Ward title screen showing hospital ward atmosphere">
+        <img src="images/3 characters.png" class="screenshot-img" alt="Biohazard Ward characters Dr. Samir Roy, Nurse Elena Vasquez, and Dr. Marcus Webb">
+        <img src="images/diagnosis screen2.png" class="screenshot-img" alt="Biohazard Ward medical diagnosis gameplay screen">
+
+        <!-- Trailer -->
+        <h2 class="text-center" style="margin: 40px 0 20px;">🎬 Trailer</h2>
+        <div class="trailer-placeholder" id="trailerPlaceholder">
+            ▶️ GAME TRAILER COMING SOON<br>
+            <small>Follow us on social media for updates</small>
+        </div>
+
+        <!-- System Requirements -->
+        <div class="requirements">
+            <h3 style="margin-bottom: 16px;">💻 Biohazard Ward System Requirements</h3>
+            <div class="req-grid">
+                <div class="req-column">
+                    <h4>Minimum Requirements:</h4>
+                    <ul>
+                        <li>OS: Windows 7/8/10 (64-bit)</li>
+                        <li>Processor: 1.5 GHz or faster</li>
+                        <li>Memory: 2 GB RAM</li>
+                        <li>Graphics: 1280x720 resolution</li>
+                        <li>Storage: 1 GB available space</li>
+                    </ul>
+                </div>
+                <div class="req-column">
+                    <h4>Recommended Requirements:</h4>
+                    <ul>
+                        <li>OS: Windows 10/11 (64-bit)</li>
+                        <li>Processor: 2.0 GHz or faster</li>
+                        <li>Memory: 4 GB RAM</li>
+                        <li>Graphics: 1920x1080 resolution</li>
+                        <li>Storage: 1 GB available space</li>
+                    </ul>
+                </div>
+            </div>
+            <p style="margin-top: 20px; font-size: 0.85rem; color: #6b7280; text-align: center;">Mac & Linux versions planned after Windows launch</p>
+        </div>
+
+        <!-- DLC Roadmap -->
+        <h2 class="text-center" style="margin: 60px 0 20px;">🗺️ Post-Launch Content</h2>
+        <div class="dlc-grid">
+            <div class="dlc-card">
+                <div class="status-badge">Planned</div>
+                <h3>📚 Diagnosis Unlimited</h3>
+                <p><strong>A pure medical simulator experience</strong></p>
+                <p>No horror. No narrative. Just diagnosis. Perfect for medical students who want to practice identifying conditions without the psychological tension of the main story.</p>
+            </div>
+
+            <div class="dlc-card">
+                <div class="status-badge">Planned</div>
+                <h3>👨‍⚕️ Samir's Story DLC</h3>
+                <p><strong>A side story focusing on Dr. Samir Roy</strong></p>
+                <p>What did Samir see before you arrived? New perspective, new secrets, and a deeper look at the research that started everything.</p>
+            </div>
+
+            <div class="dlc-card">
+                <div class="status-badge">Planned</div>
+                <h3>🔑 Elena's Story DLC</h3>
+                <p><strong>A side story focusing on Nurse Elena Vasquez</strong></p>
+                <p>Elena has keys to every door. What has she been hiding? Explore the locked rooms that Ward 7 tried to forget.</p>
+            </div>
+
+            <div class="dlc-card">
+                <div class="status-badge">Planned</div>
+                <h3>📁 Marcus's Story DLC</h3>
+                <p><strong>A side story focusing on Dr. Marcus Webb</strong></p>
+                <p>Marcus has access to personnel files. What does the hospital know about you that you don't?</p>
+            </div>
+        </div>
+
+        <!-- FAQ Section for SEO -->
+        <div class="requirements">
+            <h2 class="text-center" style="margin-bottom: 30px;">❓ Frequently Asked Questions</h2>
+            
+            <h3 class="faq-question">When will Biohazard Ward be released?</h3>
+            <p>Biohazard Ward is currently in development. Follow us on YouTube, X (Twitter), or Facebook for release date announcements.</p>
+            
+            <h3 class="faq-question">Will Biohazard Ward be on Steam?</h3>
+            <p>Yes! Biohazard Ward is coming to Steam. Add it to your wishlist to be notified when it launches.</p>
+            
+            <h3 class="faq-question">Is Biohazard Ward based on real medical conditions?</h3>
+            <p>Yes. The diagnostic system uses real medical conditions from a database of 50+ illnesses. However, the game is for entertainment purposes and should not be used for real medical training.</p>
+            
+            <h3 class="faq-question">Does Biohazard Ward have controller support?</h3>
+            <p>Full controller support is planned for the Steam release.</p>
+            
+            <h3 class="faq-question">Is there a demo available?</h3>
+            <p>A demo is being considered. Follow our social media for updates on demo availability.</p>
+        </div>
+
+        <!-- Wishlist Call -->
+        <div style="background: linear-gradient(135deg, #0a2b4e 0%, #1e3a8a 100%); color: white; padding: 50px; border-radius: 24px; text-align: center; margin: 40px 0;">
+            <h2>🎮 Coming to PC</h2>
+            <p style="margin: 20px 0;">Add Biohazard Ward to your wishlist to be notified when the game launches.</p>
+            <a href="https://brigidscrolls.itch.io/" class="btn" target="_blank" rel="noopener noreferrer" style="background: #fa5c5c; color: white;">Wishlist on Itch.io</a>
+            <p style="margin-top: 20px; font-size: 0.9rem;">📧 For press inquiries: <a href="mailto:BrigidScrolls@Gmail.com" style="color: white;">BrigidScrolls@Gmail.com</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>📧 <a href="mailto:BrigidScrolls@Gmail.com">BrigidScrolls@Gmail.com</a></p>
+            <p>Anerley, Port Shepstone, South Africa</p>
+            <div class="social-footer">
+                <a href="https://www.youtube.com/@ScrollsMDMedicalMCQs" target="_blank" rel="noopener noreferrer">▶️ YouTube</a> |
+                <a href="https://x.com/BrigidScrolls" target="_blank" rel="noopener noreferrer">🐦 X (Twitter)</a> |
+                <a href="https://web.facebook.com/people/BrigidScrolls/61571421720587/" target="_blank" rel="noopener noreferrer">📘 Facebook</a> |
+                <a href="https://za.pinterest.com/BrigidScrolls/" target="_blank" rel="noopener noreferrer">📌 Pinterest</a> |
+                <a href="https://play.google.com/store/apps/details?id=com.brigidscrolls.mbbs_scrolls&pcampaignid=web_share&pli=1" target="_blank" rel="noopener noreferrer">▶️ Google Play</a>
+            </div>
+            <div style="margin-top: 20px;">
+                <a href="terms-and-conditions/">Terms & Conditions</a> |
+                <a href="privacy-policy/">Privacy Policy</a> |
+                <a href="contact.html">Contact</a>
+            </div>
+            <p style="margin-top: 30px;">© 2025 Brigid Scrolls – Biohazard Ward</p>
+        </div>
+    </footer>
+
+    <script>
+        // Placeholder warnings
+        document.getElementById('steamPlaceholder')?.addEventListener('click', (e) => {
+            e.preventDefault();
+            alert('Steam page coming soon! Follow our social media for updates.');
+        });
+        
+        document.getElementById('trailerPlaceholder')?.addEventListener('click', () => {
+            alert('Game trailer coming soon! Follow our YouTube channel for updates.');
+        });
+    </script>
+</body>
+</html>

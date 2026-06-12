@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://brigidscrolls.github.io/sitemap.xml

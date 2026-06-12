@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: #1a2a3a;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* Header */
+header {
+    background: #0a2b4e;
+    color: white;
+    padding: 24px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f0f7ff 0%, #e6f0fa 100%);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #2c3e50;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 14px 32px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 24px;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+.btn-small {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+}
+
+/* Cards */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 50px 0;
+}
+
+.card {
+    background: #f9fafb;
+    padding: 28px;
+    border-radius: 16px;
+    border: 1px solid #e5e7eb;
+    transition: box-shadow 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    margin-bottom: 12px;
+    color: #0a2b4e;
+}
+
+/* Book Shop Grid */
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.book-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 24px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.book-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.book-card h3 {
+    color: #0a2b4e;
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+}
+
+.book-card p {
+    color: #4b5563;
+    margin-bottom: 16px;
+    font-size: 0.9rem;
+}
+
+.book-link {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.book-link:hover {
+    background: #1d4ed8;
+}
+
+/* Stats Section */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    background: #0a2b4e;
+    color: white;
+    padding: 50px 24px;
+    border-radius: 24px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Review Section */
+.review-section {
+    background: #f9fafb;
+    border-radius: 24px;
+    padding: 50px 40px;
+    margin: 40px 0;
+}
+
+.review-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.review-card {
+    background: white;
+    padding: 24px;
+    border-radius: 16px;
+    border-left: 4px solid #2563eb;
+}
+
+.review-author {
+    margin-top: 16px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 0;
+}
+
+.values {
+    background: #f0f7ff;
+    padding: 30px;
+    border-radius: 16px;
+    margin: 30px 0;
+    font-style: italic;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #f3f4f6;
+    padding: 10px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.social-icon:hover {
+    background: #e5e7eb;
+    transform: translateY(-2px);
+}
+
+.social-icon.youtube:hover { background: #ff0000; color: white; }
+.social-icon.twitter:hover { background: #000000; color: white; }
+.social-icon.facebook:hover { background: #1877f2; color: white; }
+.social-icon.pinterest:hover { background: #bd081c; color: white; }
+.social-icon.googleplay:hover { background: #34a853; color: white; }
+
+/* Footer */
+footer {
+    background: #111827;
+    color: #9ca3af;
+    padding: 48px 0;
+    margin-top: 60px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-footer {
+    margin: 20px 0;
+}
+
+.social-footer a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: 24px;
+}
+
+.mb-4 {
+    margin-bottom: 24px;
+}
+
+/* Legal Pages (terms & privacy) */
+.legal-content {
+    padding: 50px 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.legal-content h1 {
+    margin-bottom: 24px;
+    color: #0a2b4e;
+}
+
+.legal-content h2 {
+    margin: 32px 0 16px 0;
+    color: #1e3a8a;
+}
+
+.legal-content p {
+    margin-bottom: 16px;
+}
+
+.legal-content ul {
+    margin: 16px 0 16px 40px;
+}
+
+/* Game Page */
+.game-container {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.game-frame {
+    width: 100%;
+    min-height: 600px;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero { padding: 50px 0; }
+    .hero h1 { font-size: 1.8rem; }
+    .logo { font-size: 1.4rem; }
+    nav { gap: 12px; }
+    nav a { font-size: 0.85rem; }
+    .stats { flex-direction: column; gap: 20px; }
+    .review-section { padding: 30px 20px; }
+    .container { padding: 0 16px; }
+    .social-icon { padding: 6px 12px; font-size: 0.8rem; }
+}
+
+/* Uniform Image Sizes for Cards */
+.app-screenshot,
+.book-stack,
+.clickable-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 16px;
+}
+
+/* If you want different heights for specific images, use this */
+.app-screenshot {
+    object-position: top; /* Shows the top of app screenshot */
+}
+
+.book-stack {
+    object-position: center; /* Centers book image */
+}
+
+.clickable-image {
+    object-position: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.clickable-image:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Make all cards the same height */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    align-items: stretch;
+}
+
+.card {
+    background: #f9fafb;
+    padding: 28px;
+    border-radius: 16px;
+    border: 1px solid #e5e7eb;
+    transition: box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Push images to bottom of card */
+.card .app-screenshot,
+.card .book-stack,
+.card .clickable-image {
+    margin-top: auto;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Make buttons/links stay at bottom too */
+.card a:last-of-type {
+    margin-top: auto;
+}
