@@ -32,8 +32,8 @@
       "@context": "https://schema.org",
       "@type": "VideoGame",
       "name": "Biohazard Ward",
-      "description": "A psychological horror visual novel where you play as a junior doctor in an isolated hospital ward during a global pandemic. Diagnose patients, manage scarce resources, and uncover a dark conspiracy across 14 days.",
-      "genre": ["Horror", "Visual Novel", "Psychological Thriller", "Medical Simulation"],
+      "description": "A psychological horror visual novel where you play as a junior doctor in an isolated hospital ward. Diagnose patients, uncover a dark conspiracy, and survive 14 days of psychological terror.",
+      "genre": ["Horror", "Visual Novel", "Psychological Thriller", "Medical Drama"],
       "applicationCategory": "Game",
       "operatingSystem": "Windows 7, 8, 10, 11 (64-bit)",
       "processorRequirements": "1.5 GHz",
@@ -60,7 +60,7 @@
           "name": "What is Biohazard Ward?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Biohazard Ward is a psychological horror visual novel where you play as a junior doctor in an isolated hospital ward during a global pandemic."
+            "text": "Biohazard Ward is a psychological horror visual novel where you play as a junior doctor in an isolated hospital ward."
           }
         },
         {
@@ -84,7 +84,7 @@
           "name": "When will Biohazard Ward be released?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Biohazard Ward is coming to PC. Follow our social media channels for release date announcements."
+            "text": "Biohazard Ward is coming to PC in October 2026. Follow our social media channels for updates."
           }
         }
       ]
@@ -141,41 +141,6 @@
         
         .feature-card h3 {
             color: #dc2626;
-            margin-bottom: 12px;
-        }
-        
-        .dlc-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-            margin: 40px 0;
-        }
-        
-        .dlc-card {
-            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-            color: white;
-            padding: 28px;
-            border-radius: 20px;
-            transition: transform 0.2s;
-        }
-        
-        .dlc-card:hover {
-            transform: translateY(-5px);
-        }
-        
-        .dlc-card h3 {
-            color: #fbbf24;
-            margin-bottom: 12px;
-        }
-        
-        .status-badge {
-            display: inline-block;
-            background: #dc2626;
-            color: white;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.75rem;
-            font-weight: bold;
             margin-bottom: 12px;
         }
         
@@ -263,6 +228,18 @@
             color: #0a2b4e;
         }
         
+        /* Character Memory Badge */
+        .memory-badge {
+            display: inline-block;
+            background: #fbbf24;
+            color: #1a1a2e;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.7rem;
+            font-weight: bold;
+            margin-left: 8px;
+        }
+        
         @media (max-width: 768px) {
             .game-title { font-size: 2rem; }
             .store-btn { padding: 10px 20px; font-size: 0.9rem; }
@@ -299,15 +276,26 @@
             <a href="#" class="store-btn steam" id="steamPlaceholder">🔥 Coming Soon to Steam</a>
         </div>
 
-        <!-- Game Description with Q&A Format for SEO -->
+        <!-- Game Description -->
         <div class="game-description">
             <h2 style="color: #0a2b4e; margin-bottom: 20px;">🎭 Welcome to Ward 7</h2>
             
             <h3>What is Biohazard Ward?</h3>
-            <p><strong>Biohazard Ward</strong> is a psychological horror visual novel set in an isolated hospital ward during a global pandemic. You play as a newly assigned doctor who discovers that patients aren't just dying — they're being erased.</p>
+            <p><strong>Biohazard Ward</strong> is a psychological horror visual novel set in an isolated hospital ward. You play as a newly assigned doctor who discovers that patients aren't just dying — they're being erased.</p>
             
             <h3>How long is the game?</h3>
             <p>The main story takes <strong>10-15 hours</strong> to complete, with 4 different endings based on your choices throughout the 14-day narrative.</p>
+            
+            <h3>What's included in the full game?</h3>
+            <ul style="margin-left: 30px; margin-bottom: 20px;">
+                <li><strong>14 Days of Horror</strong> – A complete narrative arc with rising tension and psychological dread</li>
+                <li><strong>4 Unique Endings</strong> – Your choices determine the fate of everyone in the hospital</li>
+                <li><strong>3 Character Memories</strong> – Unlockable backstories for Samir, Elena, and Marcus</li>
+                <li><strong>Medical Diagnosis System</strong> – Identify real conditions from a database of 50+ illnesses</li>
+                <li><strong>Load Shedding Events</strong> – Power cuts that plunge the ward into darkness</li>
+                <li><strong>Dyslexia Mechanic</strong> – Your perception fractures as trauma accumulates</li>
+                <li><strong>Complete Story</strong> – The truth about Patient 447, the benefactor, and Project Coast</li>
+            </ul>
             
             <div class="feature-grid">
                 <div class="feature-card">
@@ -316,7 +304,7 @@
                 </div>
                 <div class="feature-card">
                     <h3>🔬 Diagnose or Die</h3>
-                    <p>Use the diagnostic board to identify real medical conditions from a database of 50+ conditions. Choose correctly or face the consequences.</p>
+                    <p>Use the diagnostic board to identify real medical conditions. Choose correctly or face the consequences.</p>
                 </div>
                 <div class="feature-card">
                     <h3>🧠 Your Mind Is Breaking</h3>
@@ -327,8 +315,8 @@
                     <p>Random power cuts plunge the ward into darkness. Patients panic. Equipment fails. You're alone with whatever is in the dark.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>📦 Scavenge to Survive</h3>
-                    <p>Batteries, oxygen, sedatives, food — every shift you must decide what to conserve and what to sacrifice.</p>
+                    <h3>📖 Character Memories <span class="memory-badge">Unlockable</span></h3>
+                    <p>Unlock three complete backstory chapters exploring the pasts of Samir, Elena, and Marcus — why they stay, what they fear, and what they're hiding.</p>
                 </div>
                 <div class="feature-card">
                     <h3>🎭 Your Choice Changes Everything</h3>
@@ -343,10 +331,11 @@
             
             <h3>Who are the characters in Biohazard Ward?</h3>
             <ul style="margin-left: 30px;">
-                <li><strong>Dr. Samir Roy</strong> – Your mentor. He's seen too much. He knows more than he's saying.</li>
-                <li><strong>Nurse Elena Vasquez</strong> – She has keys to every door. She's been waiting for someone to trust.</li>
-                <li><strong>Dr. Marcus Webb</strong> – Friendly on the surface. But why does he avoid the lower level?</li>
+                <li><strong>Dr. Samir Roy</strong> – Your mentor. He's seen too much. He knows more than he's saying. <span class="memory-badge">Memory Unlockable</span></li>
+                <li><strong>Nurse Elena Vasquez</strong> – She has keys to every door. She's been waiting for someone to trust. <span class="memory-badge">Memory Unlockable</span></li>
+                <li><strong>Dr. Marcus Webb</strong> – Friendly on the surface. But why does he avoid the lower level? <span class="memory-badge">Memory Unlockable</span></li>
                 <li><strong>Patient 447</strong> – A woman with no records. No family. No past. But she knows your name.</li>
+                <li><strong>The Benefactor</strong> – He owns the hospital. He owns the staff. He owns you.</li>
             </ul>
         </div>
 
@@ -392,63 +381,37 @@
             <p style="margin-top: 20px; font-size: 0.85rem; color: #6b7280; text-align: center;">Mac & Linux versions planned after Windows launch</p>
         </div>
 
-        <!-- DLC Roadmap -->
-        <h2 class="text-center" style="margin: 60px 0 20px;">🗺️ Post-Launch Content</h2>
-        <div class="dlc-grid">
-            <div class="dlc-card">
-                <div class="status-badge">Planned</div>
-                <h3>📚 Diagnosis Unlimited</h3>
-                <p><strong>A pure medical simulator experience</strong></p>
-                <p>No horror. No narrative. Just diagnosis. Perfect for medical students who want to practice identifying conditions without the psychological tension of the main story.</p>
-            </div>
-
-            <div class="dlc-card">
-                <div class="status-badge">Planned</div>
-                <h3>👨‍⚕️ Samir's Story DLC</h3>
-                <p><strong>A side story focusing on Dr. Samir Roy</strong></p>
-                <p>What did Samir see before you arrived? New perspective, new secrets, and a deeper look at the research that started everything.</p>
-            </div>
-
-            <div class="dlc-card">
-                <div class="status-badge">Planned</div>
-                <h3>🔑 Elena's Story DLC</h3>
-                <p><strong>A side story focusing on Nurse Elena Vasquez</strong></p>
-                <p>Elena has keys to every door. What has she been hiding? Explore the locked rooms that Ward 7 tried to forget.</p>
-            </div>
-
-            <div class="dlc-card">
-                <div class="status-badge">Planned</div>
-                <h3>📁 Marcus's Story DLC</h3>
-                <p><strong>A side story focusing on Dr. Marcus Webb</strong></p>
-                <p>Marcus has access to personnel files. What does the hospital know about you that you don't?</p>
-            </div>
-        </div>
-
         <!-- FAQ Section for SEO -->
         <div class="requirements">
             <h2 class="text-center" style="margin-bottom: 30px;">❓ Frequently Asked Questions</h2>
             
             <h3 class="faq-question">When will Biohazard Ward be released?</h3>
-            <p>Biohazard Ward is currently in development. Follow us on YouTube, X (Twitter), or Facebook for release date announcements.</p>
+            <p>Biohazard Ward is coming to PC in <strong>October 2026</strong>. Follow us on YouTube, X (Twitter), or Facebook for release date announcements.</p>
             
             <h3 class="faq-question">Will Biohazard Ward be on Steam?</h3>
             <p>Yes! Biohazard Ward is coming to Steam. Add it to your wishlist to be notified when it launches.</p>
             
+            <h3 class="faq-question">What is the price of Biohazard Ward?</h3>
+            <p>Biohazard Ward will be priced at <strong>$14.99 USD</strong> for the full game.</p>
+            
             <h3 class="faq-question">Is Biohazard Ward based on real medical conditions?</h3>
-            <p>Yes. The diagnostic system uses real medical conditions from a database of 50+ illnesses. However, the game is for entertainment purposes and should not be used for real medical training.</p>
+            <p>Yes. The diagnostic system uses real medical conditions. However, the game is for entertainment purposes and should not be used for real medical training.</p>
             
             <h3 class="faq-question">Does Biohazard Ward have controller support?</h3>
             <p>Full controller support is planned for the Steam release.</p>
             
             <h3 class="faq-question">Is there a demo available?</h3>
-            <p>A demo is being considered. Follow our social media for updates on demo availability.</p>
+            <p>A demo featuring the first 5 days of gameplay is available now on Itch.io.</p>
+            
+            <h3 class="faq-question">What are the Character Memories?</h3>
+            <p>Character Memories are three unlockable backstory chapters that explore the pasts of Dr. Samir Roy, Nurse Elena Vasquez, and Dr. Marcus Webb. They are unlocked by progressing through the main story.</p>
         </div>
 
         <!-- Wishlist Call -->
         <div style="background: linear-gradient(135deg, #0a2b4e 0%, #1e3a8a 100%); color: white; padding: 50px; border-radius: 24px; text-align: center; margin: 40px 0;">
-            <h2>🎮 Coming to PC</h2>
+            <h2>🎮 Coming to PC – October 2026</h2>
             <p style="margin: 20px 0;">Add Biohazard Ward to your wishlist to be notified when the game launches.</p>
-            <a href="https://brigidscrolls.itch.io/" class="btn" target="_blank" rel="noopener noreferrer" style="background: #fa5c5c; color: white;">Wishlist on Itch.io</a>
+            <a href="https://brigidscrolls.itch.io/" class="btn" target="_blank" rel="noopener noreferrer" style="background: #fa5c5c; color: white; padding: 14px 32px; border-radius: 40px; text-decoration: none; font-weight: bold;">Wishlist on Itch.io</a>
             <p style="margin-top: 20px; font-size: 0.9rem;">📧 For press inquiries: <a href="mailto:BrigidScrolls@Gmail.com" style="color: white;">BrigidScrolls@Gmail.com</a></p>
         </div>
     </div>
